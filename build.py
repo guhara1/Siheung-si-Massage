@@ -8,6 +8,7 @@ content/ 패키지의 페이지 정의를 읽어 정적 HTML을 생성한다.
   - sitemap.xml 에는 index 허용 페이지만 포함
   - 지역+역+테마 조합 경로는 생성 자체가 불가능한 구조
 """
+import datetime
 import html
 import os
 import re
@@ -18,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from content import PAGES
 from content.site import (
-    BASE_URL, BRAND, BRAND_MARK, HOME, NAV, PHONE, PHONE_DISPLAY,
+    BASE_URL, BRAND, BRAND_MARK, HOME, INDEXNOW_KEY, NAV, PHONE, PHONE_DISPLAY,
     TELEGRAM_BUILD, TELEGRAM_PARTNER,
 )
 
@@ -233,6 +234,7 @@ def render_page(page: dict) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="{BRAND} 새 글·업데이트" href="/feed.xml">
 {schema_head}{extra_head}</head>
 <body>
 <header class="site-header">
@@ -325,14 +327,15 @@ def render_page(page: dict) -> str:
 
 def build() -> None:
     report = []
-    sitemap_urls = []
+    sitemap_urls = []   # (url, title, desc) — 색인 허용 페이지만
     long_desc = []
+    base = BASE_URL.rstrip("/")
 
     for page in PAGES:
         d = page.get("desc", "")
         if len(d) > 80:
             long_desc.append((page["path"] or "/", len(d)))
-        path = page["path"]  # "" 또는 "nowon-gu/wolgye-dong/" 형태
+        path = page["path"]  # "" 또는 "baegot-dong/" 형태
         out_dir = os.path.join(ROOT, path)
         os.makedirs(out_dir, exist_ok=True)
         html_out = render_page(page)
@@ -342,12 +345,18 @@ def build() -> None:
         chars = text_length(page["body"])
         noindex = page.get("noindex", False) or chars < MIN_INDEX_CHARS
         if not noindex:
-            sitemap_urls.append(BASE_URL.rstrip("/") + "/" + path)
+            sitemap_urls.append((base + "/" + path, page["title"], d))
         report.append((path or "/", chars, "noindex" if noindex else "index"))
 
-    # sitemap.xml
+    today = datetime.date.today().isoformat()
+    now_rfc = datetime.datetime.now(datetime.timezone.utc).strftime(
+        "%a, %d %b %Y %H:%M:%S +0000"
+    )
+
+    # sitemap.xml (lastmod 포함)
     urls = "\n".join(
-        f"  <url><loc>{u}</loc></url>" for u in sitemap_urls
+        f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>"
+        for u, _, _ in sitemap_urls
     )
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(
@@ -356,12 +365,42 @@ def build() -> None:
             f"{urls}\n</urlset>\n"
         )
 
-    # robots.txt
+    # feed.xml (RSS 2.0) — 색인 허용 전체 페이지를 항목으로
+    items = "\n".join(
+        "  <item>"
+        f"<title>{html.escape(t)}</title>"
+        f"<link>{u}</link>"
+        f"<guid isPermaLink=\"true\">{u}</guid>"
+        f"<description>{html.escape(de)}</description>"
+        f"<pubDate>{now_rfc}</pubDate>"
+        "</item>"
+        for u, t, de in sitemap_urls
+    )
+    with open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+            "<channel>\n"
+            f"  <title>{html.escape(BRAND)} — 시흥 출장마사지·홈타이 안내</title>\n"
+            f"  <link>{base}/</link>\n"
+            f'  <atom:link href="{base}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+            "  <description>시흥시 전지역 방문 관리(출장마사지·홈타이) 지역·역세권·생활권 안내</description>\n"
+            "  <language>ko</language>\n"
+            f"  <lastBuildDate>{now_rfc}</lastBuildDate>\n"
+            f"{items}\n"
+            "</channel>\n</rss>\n"
+        )
+
+    # robots.txt (사이트맵 + RSS 노출)
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(
             "User-agent: *\nAllow: /\n\n"
-            f"Sitemap: {BASE_URL.rstrip('/')}/sitemap.xml\n"
+            f"Sitemap: {base}/sitemap.xml\n"
         )
+
+    # IndexNow 키 검증 파일 — 루트에 <키>.txt (내용도 키)
+    with open(os.path.join(ROOT, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
+        f.write(INDEXNOW_KEY + "\n")
 
     # .nojekyll (GitHub Pages)
     open(os.path.join(ROOT, ".nojekyll"), "w").close()

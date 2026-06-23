@@ -1,8 +1,10 @@
 # 시흥 메인(홈) — 허브 역할. 키워드를 밀어 넣지 않고 상세 페이지로 연결한다.
 # WebPage·Organization·BreadcrumbList·ImageObject 스키마는 build.py가 공통 주입한다.
 # 메인 추가 스키마는 FAQPage 만 둔다. (방문형 사이트 → LocalBusiness 미사용)
-from .site import BASE_URL, BRAND, PHONE, PHONE_DISPLAY
+from .site import BASE_URL, BRAND, NAVER_VERIFY, PHONE, PHONE_DISPLAY
 from .pricing import PRICING
+
+_NAVER = f'<meta name="naver-site-verification" content="{NAVER_VERIFY}">\n'
 
 _JSONLD = f"""<script type="application/ld+json">
 {{
@@ -189,7 +191,7 @@ PAGE = {
     "desc": "시흥시 출장마사지·홈타이 예약 전 배곧, 정왕, 목감, 은계, 능곡, 월곶 생활권을 확인하세요.",
     "h1": "시흥시 출장마사지 · 시흥시 홈타이 지역별 예약 안내",
     "body": _BODY,
-    "extra_head": _JSONLD,
+    "extra_head": _NAVER + _JSONLD,
     "breadcrumb": [],
     "hero": _HERO,
 }

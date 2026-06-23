@@ -14,6 +14,12 @@ TELEGRAM_PARTNER = "https://t.me/googleseolab"  # 제휴문의
 # 시흥 메인 경로 — 홈/지역 허브
 HOME = "/"
 
+# 네이버 웹마스터도구 사이트 소유확인 메타 (메인페이지 head 에 출력)
+NAVER_VERIFY = "50e6866c684d881806f1a927afb5395635ead7f4"
+
+# IndexNow 키 (Bing·Naver·Yandex 즉시 색인 통보). 루트에 <키>.txt 파일로도 발행된다.
+INDEXNOW_KEY = "5581df66857b21ed0560063531eb3063"
+
 # 상단 메뉴 — 메뉴명·URL에는 "출장마사지"를 반복하지 않는다(지역명·역명만 표시).
 NAV = [
     ("홈", "/", []),
