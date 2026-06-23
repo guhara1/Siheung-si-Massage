@@ -278,11 +278,11 @@ def render_page(page: dict) -> str:
     <nav class="footer-col" aria-label="지역 안내">
       <p class="footer-title">지역</p>
       <ul>
-        <li><a href="/gyeonggi/siheung/">시흥시 전체</a></li>
-        <li><a href="/gyeonggi/siheung/baegot-dong/">배곧동</a></li>
-        <li><a href="/gyeonggi/siheung/jeongwang-dong/">정왕동</a></li>
-        <li><a href="/gyeonggi/siheung/station/">역세권 안내</a></li>
-        <li><a href="/gyeonggi/siheung/area/">생활권 안내</a></li>
+        <li><a href="/">시흥시 전체</a></li>
+        <li><a href="/baegot-dong/">배곧동</a></li>
+        <li><a href="/jeongwang-dong/">정왕동</a></li>
+        <li><a href="/station/">역세권 안내</a></li>
+        <li><a href="/area/">생활권 안내</a></li>
       </ul>
     </nav>
     <nav class="footer-col" aria-label="이용 안내">
@@ -365,19 +365,6 @@ def build() -> None:
 
     # .nojekyll (GitHub Pages)
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
-
-    # 루트(/) → 시흥 메인 리다이렉트. 도메인 루트로 들어와도 메인이 열린다.
-    home_url = BASE_URL.rstrip("/") + HOME
-    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
-        f.write(
-            "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n<meta charset=\"utf-8\">\n"
-            f"<title>{BRAND}</title>\n"
-            f"<link rel=\"canonical\" href=\"{home_url}\">\n"
-            f"<meta http-equiv=\"refresh\" content=\"0; url={HOME}\">\n"
-            "<meta name=\"robots\" content=\"noindex,follow\">\n"
-            f"<script>location.replace(\"{HOME}\");</script>\n"
-            f"</head>\n<body><p><a href=\"{HOME}\">{BRAND} 바로가기</a></p></body>\n</html>\n"
-        )
 
     width = max(len(p) for p, _, _ in report)
     print(f"{'PATH'.ljust(width)}  CHARS  ROBOTS")

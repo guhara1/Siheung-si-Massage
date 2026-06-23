@@ -81,14 +81,14 @@ _BODY = f"""
 
 <section id="living">
 <h2>배곧·정왕·목감·은계·능곡 생활권 차이</h2>
-<p>배곧과 거북섬은 신도시·해안 생활권이고, 정왕동은 정왕역과 시화공단, 시흥스마트허브 생활권이 함께 있습니다. 목감동은 광명·안산 인접권과 연결되고, 은행동·대야동·신천동은 은계·대야 생활권으로 묶입니다. 능곡동, 장곡동, 연성동은 장현지구와 시흥시청 생활권을 중심으로 설명하는 것이 좋습니다. 같은 시흥시라도 신도시, 산업단지, 원도심, 외곽 주거지가 모두 다른 리듬으로 돌아가기 때문에, 위치를 먼저 확인하면 예약이 한결 빨라집니다. 생활권 단위로 정리한 안내는 <a href="/gyeonggi/siheung/area/">생활권 안내</a>에서 한눈에 비교하실 수 있습니다.</p>
+<p>배곧과 거북섬은 신도시·해안 생활권이고, 정왕동은 정왕역과 시화공단, 시흥스마트허브 생활권이 함께 있습니다. 목감동은 광명·안산 인접권과 연결되고, 은행동·대야동·신천동은 은계·대야 생활권으로 묶입니다. 능곡동, 장곡동, 연성동은 장현지구와 시흥시청 생활권을 중심으로 설명하는 것이 좋습니다. 같은 시흥시라도 신도시, 산업단지, 원도심, 외곽 주거지가 모두 다른 리듬으로 돌아가기 때문에, 위치를 먼저 확인하면 예약이 한결 빨라집니다. 생활권 단위로 정리한 안내는 <a href="/area/">생활권 안내</a>에서 한눈에 비교하실 수 있습니다.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/siheung/area/baegot-newtown/">배곧신도시 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/jeongwang-sihwa-industrial/">정왕·시화공단 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/oido-geobukseom/">오이도·거북섬 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/eungye-daeya/">은계·대야 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/neunggok-janghyeon/">능곡·장현 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/mokgam-gwangmyeong-nearby/">목감·광명 인접 생활권</a></li>
+<li><a href="/area/baegot-newtown/">배곧신도시 생활권</a></li>
+<li><a href="/area/jeongwang-sihwa-industrial/">정왕·시화공단 생활권</a></li>
+<li><a href="/area/oido-geobukseom/">오이도·거북섬 생활권</a></li>
+<li><a href="/area/eungye-daeya/">은계·대야 생활권</a></li>
+<li><a href="/area/neunggok-janghyeon/">능곡·장현 생활권</a></li>
+<li><a href="/area/mokgam-gwangmyeong-nearby/">목감·광명 인접 생활권</a></li>
 </ul>
 </section>
 
@@ -96,21 +96,21 @@ _BODY = f"""
 <h2>대표동별 방문 가능 지역 안내</h2>
 <p>대표 지역은 배곧동, 정왕동, 거북섬동, 월곶동, 군자동, 목감동, 능곡동, 장곡동, 연성동, 은행동, 대야동, 신천동, 신현동, 매화동, 과림동으로 구성합니다. 배곧동은 배곧신도시와 서울대 시흥캠퍼스 인접 생활권을 중심으로, 정왕동은 정왕역·오이도역·시화공단 생활권을 중심으로 안내합니다. 정왕본동부터 정왕4동, 배곧1·2동처럼 숫자로 나뉜 동은 각각 페이지를 만들지 않고 대표동 페이지에서 통합합니다. 거주하시거나 머무시는 동을 선택해 주세요.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/siheung/baegot-dong/">배곧동</a></li>
-<li><a href="/gyeonggi/siheung/jeongwang-dong/">정왕동</a></li>
-<li><a href="/gyeonggi/siheung/geobukseom-dong/">거북섬동</a></li>
-<li><a href="/gyeonggi/siheung/wolgot-dong/">월곶동</a></li>
-<li><a href="/gyeonggi/siheung/gunja-dong/">군자동</a></li>
-<li><a href="/gyeonggi/siheung/mokgam-dong/">목감동</a></li>
-<li><a href="/gyeonggi/siheung/neunggok-dong/">능곡동</a></li>
-<li><a href="/gyeonggi/siheung/janggok-dong/">장곡동</a></li>
-<li><a href="/gyeonggi/siheung/yeonseong-dong/">연성동</a></li>
-<li><a href="/gyeonggi/siheung/eunhaeng-dong/">은행동</a></li>
-<li><a href="/gyeonggi/siheung/daeya-dong/">대야동</a></li>
-<li><a href="/gyeonggi/siheung/sincheon-dong/">신천동</a></li>
-<li><a href="/gyeonggi/siheung/sinhyeon-dong/">신현동</a></li>
-<li><a href="/gyeonggi/siheung/maehwa-dong/">매화동</a></li>
-<li><a href="/gyeonggi/siheung/gwarim-dong/">과림동</a></li>
+<li><a href="/baegot-dong/">배곧동</a></li>
+<li><a href="/jeongwang-dong/">정왕동</a></li>
+<li><a href="/geobukseom-dong/">거북섬동</a></li>
+<li><a href="/wolgot-dong/">월곶동</a></li>
+<li><a href="/gunja-dong/">군자동</a></li>
+<li><a href="/mokgam-dong/">목감동</a></li>
+<li><a href="/neunggok-dong/">능곡동</a></li>
+<li><a href="/janggok-dong/">장곡동</a></li>
+<li><a href="/yeonseong-dong/">연성동</a></li>
+<li><a href="/eunhaeng-dong/">은행동</a></li>
+<li><a href="/daeya-dong/">대야동</a></li>
+<li><a href="/sincheon-dong/">신천동</a></li>
+<li><a href="/sinhyeon-dong/">신현동</a></li>
+<li><a href="/maehwa-dong/">매화동</a></li>
+<li><a href="/gwarim-dong/">과림동</a></li>
 </ul>
 </section>
 
@@ -118,17 +118,17 @@ _BODY = f"""
 <h2>오이도역·정왕역·시흥시청역·신천역 역세권 안내</h2>
 <p>역을 기준으로 위치를 설명하는 것이 편하시다면 역세권 안내를 참고하세요. 오이도역, 정왕역, 월곶역, 달월역, 시흥시청역, 시흥능곡역, 신현역, 신천역, 시흥대야역을 역마다 한 페이지씩 안내하며, 환승역이라도 노선별로 나누거나 출구별 페이지를 만들지 않습니다. 소래포구역·광명역·안산역은 시흥 성격이 아니므로 각각 월곶·목감·정왕 인접 생활권 기준으로만 설명합니다.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/siheung/station/oido-station/">오이도역</a></li>
-<li><a href="/gyeonggi/siheung/station/jeongwang-station/">정왕역</a></li>
-<li><a href="/gyeonggi/siheung/station/wolgot-station/">월곶역</a></li>
-<li><a href="/gyeonggi/siheung/station/darwol-station/">달월역</a></li>
-<li><a href="/gyeonggi/siheung/station/siheung-cityhall-station/">시흥시청역</a></li>
-<li><a href="/gyeonggi/siheung/station/siheung-neunggok-station/">시흥능곡역</a></li>
-<li><a href="/gyeonggi/siheung/station/sinhyeon-station/">신현역</a></li>
-<li><a href="/gyeonggi/siheung/station/sincheon-station/">신천역</a></li>
-<li><a href="/gyeonggi/siheung/station/siheung-daeya-station/">시흥대야역</a></li>
+<li><a href="/station/oido-station/">오이도역</a></li>
+<li><a href="/station/jeongwang-station/">정왕역</a></li>
+<li><a href="/station/wolgot-station/">월곶역</a></li>
+<li><a href="/station/darwol-station/">달월역</a></li>
+<li><a href="/station/siheung-cityhall-station/">시흥시청역</a></li>
+<li><a href="/station/siheung-neunggok-station/">시흥능곡역</a></li>
+<li><a href="/station/sinhyeon-station/">신현역</a></li>
+<li><a href="/station/sincheon-station/">신천역</a></li>
+<li><a href="/station/siheung-daeya-station/">시흥대야역</a></li>
 </ul>
-<p>역 전체 구조와 노선별 정리는 <a href="/gyeonggi/siheung/station/">역세권 안내 허브</a>에서 확인하실 수 있습니다.</p>
+<p>역 전체 구조와 노선별 정리는 <a href="/station/">역세권 안내 허브</a>에서 확인하실 수 있습니다.</p>
 </section>
 
 <section id="themes">
@@ -184,7 +184,7 @@ _BODY = f"""
 """
 
 PAGE = {
-    "path": "gyeonggi/siheung/",
+    "path": "",
     "title": "시흥시 출장마사지｜배곧·정왕·목감·은계 홈타이 지역 안내",
     "desc": "시흥시 출장마사지·홈타이 예약 전 배곧, 정왕, 목감, 은계, 능곡, 월곶 생활권을 확인하세요.",
     "h1": "시흥시 출장마사지 · 시흥시 홈타이 지역별 예약 안내",

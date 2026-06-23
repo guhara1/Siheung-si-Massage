@@ -27,26 +27,26 @@ _HUB_BODY = """
 <section>
 <h2>시흥시 13개 생활권</h2>
 <ul class="card-grid">
-<li><a href="/gyeonggi/siheung/area/baegot-newtown/">배곧신도시 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/jeongwang-sihwa-industrial/">정왕·시화공단 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/oido-geobukseom/">오이도·거북섬 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/wolgot-port/">월곶포구 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/mokgam-gwangmyeong-nearby/">목감·광명 인접 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/eungye-daeya/">은계·대야 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/sincheon-eunhaeng/">신천·은행 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/neunggok-janghyeon/">능곡·장현 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/cityhall-yeonseong/">시흥시청·연성 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/janggok-hajung/">장곡·하중 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/maehwa-sinhyeon/">매화·신현 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/gunja-janghyeon/">군자·장현 인접 생활권</a></li>
-<li><a href="/gyeonggi/siheung/area/gwarim-gwangmyeong-bucheon/">과림·광명부천 인접 생활권</a></li>
+<li><a href="/area/baegot-newtown/">배곧신도시 생활권</a></li>
+<li><a href="/area/jeongwang-sihwa-industrial/">정왕·시화공단 생활권</a></li>
+<li><a href="/area/oido-geobukseom/">오이도·거북섬 생활권</a></li>
+<li><a href="/area/wolgot-port/">월곶포구 생활권</a></li>
+<li><a href="/area/mokgam-gwangmyeong-nearby/">목감·광명 인접 생활권</a></li>
+<li><a href="/area/eungye-daeya/">은계·대야 생활권</a></li>
+<li><a href="/area/sincheon-eunhaeng/">신천·은행 생활권</a></li>
+<li><a href="/area/neunggok-janghyeon/">능곡·장현 생활권</a></li>
+<li><a href="/area/cityhall-yeonseong/">시흥시청·연성 생활권</a></li>
+<li><a href="/area/janggok-hajung/">장곡·하중 생활권</a></li>
+<li><a href="/area/maehwa-sinhyeon/">매화·신현 생활권</a></li>
+<li><a href="/area/gunja-janghyeon/">군자·장현 인접 생활권</a></li>
+<li><a href="/area/gwarim-gwangmyeong-bucheon/">과림·광명부천 인접 생활권</a></li>
 </ul>
 <p>남부 해안 권역에는 배곧신도시, 정왕·시화공단, 오이도·거북섬, 월곶포구 생활권이 묶입니다. 중부 행정·주거 권역에는 능곡·장현, 시흥시청·연성, 장곡·하중, 군자·장현 인접 생활권이 자리하고, 북부 원도심 권역에는 은계·대야, 신천·은행 생활권이 있습니다. 동·북부 외곽 권역에는 목감·광명 인접, 매화·신현, 과림·광명부천 인접 생활권이 포함됩니다. 권역마다 주거 형태와 이동 수단이 달라, 신도시는 도보·단지 동선이, 공단과 외곽은 차량 이동 기준이 더 중요합니다. 각 페이지에서 권역 범위와 인접 이동 기준을 자세히 설명합니다.</p>
 </section>
 
 <section>
 <h2>지역·역세권 안내와 함께 보기</h2>
-<p>거주지 기준이 익숙하시면 <a href="/gyeonggi/siheung/">지역별 안내</a>에서 동 단위로, 지하철이 편하시면 <a href="/gyeonggi/siheung/station/">역세권 안내</a>에서 역 단위로 확인하실 수 있습니다. 시흥은 서해선(시흥대야·신천·시흥시청·시흥능곡·달월·월곶)과 수인분당선(오이도·정왕·달월·월곶)이 지나, 같은 생활권이라도 가까운 역이 다를 수 있습니다. 생활권 페이지에서 인접 역과 동을 연결해 두었으니, 본인에게 익숙한 기준으로 들어와 다른 페이지로 넘어가며 위치를 좁히시면 됩니다. 원하시는 관리 유형은 <a href="/themes/swedish/">스웨디시</a>나 <a href="/themes/thai/">타이마사지</a> 같은 테마별 안내에서 따로 확인하시면 됩니다.</p>
+<p>거주지 기준이 익숙하시면 <a href="/">지역별 안내</a>에서 동 단위로, 지하철이 편하시면 <a href="/station/">역세권 안내</a>에서 역 단위로 확인하실 수 있습니다. 시흥은 서해선(시흥대야·신천·시흥시청·시흥능곡·달월·월곶)과 수인분당선(오이도·정왕·달월·월곶)이 지나, 같은 생활권이라도 가까운 역이 다를 수 있습니다. 생활권 페이지에서 인접 역과 동을 연결해 두었으니, 본인에게 익숙한 기준으로 들어와 다른 페이지로 넘어가며 위치를 좁히시면 됩니다. 원하시는 관리 유형은 <a href="/themes/swedish/">스웨디시</a>나 <a href="/themes/thai/">타이마사지</a> 같은 테마별 안내에서 따로 확인하시면 됩니다.</p>
 </section>
 
 <section>
@@ -74,12 +74,12 @@ _HUB_BODY = """
 
 def _area(slug, name, title, desc, sections):
     return {
-        "path": f"gyeonggi/siheung/area/{slug}/",
+        "path": f"area/{slug}/",
         "title": title,
         "desc": desc,
         "h1": f"{name} 방문 관리 안내",
         "body": sections + PRICING + _CTA,
-        "breadcrumb": [("생활권 안내", "/gyeonggi/siheung/area/"), (name, None)],
+        "breadcrumb": [("생활권 안내", "/area/"), (name, None)],
     }
 
 
@@ -88,7 +88,7 @@ BAEGOT_NEWTOWN = _area(
     "배곧신도시 생활권 출장마사지·홈타이 방문 안내｜시흥",
     "배곧신도시 생활권 방문 관리, 오이도역·정왕역 이동과 신도시 거주 조건을 안내합니다.",
     """
-<p class="lead">배곧신도시 생활권은 시흥 남부 해안 매립지에 새로 조성된 계획도시 권역입니다. 이 페이지는 배곧 권역의 범위와 인접 역·동으로의 이동 기준을 중심으로 안내하며, 지역 전체 설명은 <a href="/gyeonggi/siheung/baegot-dong/">배곧동 페이지</a>에서 다룹니다.</p>
+<p class="lead">배곧신도시 생활권은 시흥 남부 해안 매립지에 새로 조성된 계획도시 권역입니다. 이 페이지는 배곧 권역의 범위와 인접 역·동으로의 이동 기준을 중심으로 안내하며, 지역 전체 설명은 <a href="/baegot-dong/">배곧동 페이지</a>에서 다룹니다.</p>
 
 <section>
 <h2>배곧신도시 생활권의 범위</h2>
@@ -102,7 +102,7 @@ BAEGOT_NEWTOWN = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>배곧 권역에는 자체 전철역이 없어 인접 역을 이용합니다. 정왕 방면으로는 수인분당선 <a href="/gyeonggi/siheung/station/jeongwang-station/">정왕역</a>이, 해안 남쪽으로는 <a href="/gyeonggi/siheung/station/oido-station/">오이도역</a>이 가장 가깝습니다. 두 역 모두 배곧에서 차량으로 멀지 않아, 역 인근 숙소나 오피스텔에서 받으실 때는 해당 역 페이지를 함께 보시면 출입 안내가 빠릅니다. 동쪽 <a href="/gyeonggi/siheung/geobukseom-dong/">거북섬동</a> 방면은 다리 하나로 이어져 생활권이 자연스럽게 겹칩니다. 배곧 권역 전반의 지역 정보는 <a href="/gyeonggi/siheung/baegot-dong/">배곧동</a> 페이지에서 확인하세요.</p>
+<p>배곧 권역에는 자체 전철역이 없어 인접 역을 이용합니다. 정왕 방면으로는 수인분당선 <a href="/station/jeongwang-station/">정왕역</a>이, 해안 남쪽으로는 <a href="/station/oido-station/">오이도역</a>이 가장 가깝습니다. 두 역 모두 배곧에서 차량으로 멀지 않아, 역 인근 숙소나 오피스텔에서 받으실 때는 해당 역 페이지를 함께 보시면 출입 안내가 빠릅니다. 동쪽 <a href="/geobukseom-dong/">거북섬동</a> 방면은 다리 하나로 이어져 생활권이 자연스럽게 겹칩니다. 배곧 권역 전반의 지역 정보는 <a href="/baegot-dong/">배곧동</a> 페이지에서 확인하세요.</p>
 </section>
 
 <section>
@@ -132,7 +132,7 @@ BAEGOT_NEWTOWN = _area(
 </div>
 <div class="faq-item">
 <h3>오이도역 근처 숙소에서 받고 싶어요.</h3>
-<p>가능합니다. 오이도역 인근 숙소는 <a href="/gyeonggi/siheung/station/oido-station/">오이도역 페이지</a> 기준으로 출입 안내를 함께 확인하시면 빠릅니다.</p>
+<p>가능합니다. 오이도역 인근 숙소는 <a href="/station/oido-station/">오이도역 페이지</a> 기준으로 출입 안내를 함께 확인하시면 빠릅니다.</p>
 </div>
 </section>
 """)
@@ -142,11 +142,11 @@ JEONGWANG_SIHWA = _area(
     "정왕·시화공단 생활권 출장마사지 안내｜시흥",
     "정왕동·시화공단·시흥스마트허브 생활권의 방문 조건과 이동 기준을 안내합니다.",
     """
-<p class="lead">정왕·시화공단 생활권은 주거지인 정왕동과 산업단지인 시흥스마트허브(시화공단)가 맞물린 권역입니다. 이 페이지는 권역 범위와 공단·주거 사이 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/jeongwang-dong/">정왕동 페이지</a>에서 확인하세요.</p>
+<p class="lead">정왕·시화공단 생활권은 주거지인 정왕동과 산업단지인 시흥스마트허브(시화공단)가 맞물린 권역입니다. 이 페이지는 권역 범위와 공단·주거 사이 이동 기준을 다루며, 지역 전체 설명은 <a href="/jeongwang-dong/">정왕동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>정왕·시화공단 생활권의 범위</h2>
-<p>이 생활권은 수인분당선 정왕역을 중심으로 한 주거 권역과, 그 서쪽·남쪽으로 펼쳐진 시흥스마트허브 산업단지를 함께 묶습니다. 정왕동 원도심에는 원룸과 빌라, 오피스텔이 밀집해 있고, 공단 구역에는 공장과 사무동, 그리고 그 사이사이의 기숙형 숙소가 자리합니다. 주거와 산업이 한 권역에 섞여 있어 낮에는 통근·물류 차량이, 저녁에는 퇴근 인파가 동선을 가르는 것이 이 권역의 특징입니다. 외국인 근로자 비중이 높고 교대 근무 종사자가 많아, 일반적인 주거지와는 예약 시간대 분포가 다릅니다. 같은 정왕이라도 역 북쪽 주거 밀집 구역과 공단 안쪽 구역은 도로 폭과 가로 환경이 크게 달라, 한 권역 안에서도 도착 동선이 두 갈래로 나뉩니다. 낮 시간에는 물류 차량이, 밤 시간에는 퇴근·교대 인파가 동선을 채우기 때문에 같은 주소라도 방문 시간대에 따라 진입 난이도가 달라지는 점도 이 권역에서만 보이는 특징입니다. 이 페이지는 권역 범위와 이동 기준을 다루며, 정왕역 역세권 정보는 <a href="/gyeonggi/siheung/station/jeongwang-station/">정왕역 페이지</a>, 지역 전반은 정왕동 페이지에서 나누어 설명합니다.</p>
+<p>이 생활권은 수인분당선 정왕역을 중심으로 한 주거 권역과, 그 서쪽·남쪽으로 펼쳐진 시흥스마트허브 산업단지를 함께 묶습니다. 정왕동 원도심에는 원룸과 빌라, 오피스텔이 밀집해 있고, 공단 구역에는 공장과 사무동, 그리고 그 사이사이의 기숙형 숙소가 자리합니다. 주거와 산업이 한 권역에 섞여 있어 낮에는 통근·물류 차량이, 저녁에는 퇴근 인파가 동선을 가르는 것이 이 권역의 특징입니다. 외국인 근로자 비중이 높고 교대 근무 종사자가 많아, 일반적인 주거지와는 예약 시간대 분포가 다릅니다. 같은 정왕이라도 역 북쪽 주거 밀집 구역과 공단 안쪽 구역은 도로 폭과 가로 환경이 크게 달라, 한 권역 안에서도 도착 동선이 두 갈래로 나뉩니다. 낮 시간에는 물류 차량이, 밤 시간에는 퇴근·교대 인파가 동선을 채우기 때문에 같은 주소라도 방문 시간대에 따라 진입 난이도가 달라지는 점도 이 권역에서만 보이는 특징입니다. 이 페이지는 권역 범위와 이동 기준을 다루며, 정왕역 역세권 정보는 <a href="/station/jeongwang-station/">정왕역 페이지</a>, 지역 전반은 정왕동 페이지에서 나누어 설명합니다.</p>
 </section>
 
 <section>
@@ -156,7 +156,7 @@ JEONGWANG_SIHWA = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역의 중심 역은 <a href="/gyeonggi/siheung/station/jeongwang-station/">정왕역</a>이며, 남쪽 해안 방면으로는 <a href="/gyeonggi/siheung/station/oido-station/">오이도역</a>이 가깝습니다. 북동쪽으로는 장현지구와 맞닿은 <a href="/gyeonggi/siheung/gunja-dong/">군자동</a> 생활권이 이어지고, 동쪽 매립지로는 배곧 권역이 연결됩니다. 정왕 권역의 지역 전반 정보는 <a href="/gyeonggi/siheung/jeongwang-dong/">정왕동</a> 페이지에서 확인하시고, 군자·장현 방면 이동은 군자동 안내를 함께 보시면 위치 설명이 쉬워집니다.</p>
+<p>권역의 중심 역은 <a href="/station/jeongwang-station/">정왕역</a>이며, 남쪽 해안 방면으로는 <a href="/station/oido-station/">오이도역</a>이 가깝습니다. 북동쪽으로는 장현지구와 맞닿은 <a href="/gunja-dong/">군자동</a> 생활권이 이어지고, 동쪽 매립지로는 배곧 권역이 연결됩니다. 정왕 권역의 지역 전반 정보는 <a href="/jeongwang-dong/">정왕동</a> 페이지에서 확인하시고, 군자·장현 방면 이동은 군자동 안내를 함께 보시면 위치 설명이 쉬워집니다.</p>
 </section>
 
 <section>
@@ -196,7 +196,7 @@ OIDO_GEOBUKSEOM = _area(
     "오이도·거북섬 생활권 출장마사지 안내｜시흥",
     "오이도·거북섬·시화호 해안 생활권의 숙소·오피스텔 방문 조건을 안내합니다.",
     """
-<p class="lead">오이도·거북섬 생활권은 시화호와 서해를 낀 시흥 남단 해안 권역입니다. 이 페이지는 해안 권역의 범위와 숙소·오피스텔 방문 기준을 중심으로 안내하며, 지역 전체 설명은 <a href="/gyeonggi/siheung/geobukseom-dong/">거북섬동 페이지</a>에서 다룹니다.</p>
+<p class="lead">오이도·거북섬 생활권은 시화호와 서해를 낀 시흥 남단 해안 권역입니다. 이 페이지는 해안 권역의 범위와 숙소·오피스텔 방문 기준을 중심으로 안내하며, 지역 전체 설명은 <a href="/geobukseom-dong/">거북섬동 페이지</a>에서 다룹니다.</p>
 
 <section>
 <h2>오이도·거북섬 생활권의 범위</h2>
@@ -210,7 +210,7 @@ OIDO_GEOBUKSEOM = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역의 관문 역은 수인분당선 <a href="/gyeonggi/siheung/station/oido-station/">오이도역</a>입니다. 역에서 해안까지는 거리가 있어 차량 이동이 일반적입니다. 북쪽으로는 <a href="/gyeonggi/siheung/baegot-dong/">배곧동</a> 신도시 권역과 다리로 이어지고, 동쪽 월곶 방면으로는 <a href="/gyeonggi/siheung/wolgot-dong/">월곶동</a> 포구 생활권과 닿습니다. 거북섬 일대 지역 정보는 <a href="/gyeonggi/siheung/geobukseom-dong/">거북섬동</a> 페이지에서 확인하시고, 오이도역 인근 출입은 오이도역 페이지를 함께 보시면 빠릅니다.</p>
+<p>권역의 관문 역은 수인분당선 <a href="/station/oido-station/">오이도역</a>입니다. 역에서 해안까지는 거리가 있어 차량 이동이 일반적입니다. 북쪽으로는 <a href="/baegot-dong/">배곧동</a> 신도시 권역과 다리로 이어지고, 동쪽 월곶 방면으로는 <a href="/wolgot-dong/">월곶동</a> 포구 생활권과 닿습니다. 거북섬 일대 지역 정보는 <a href="/geobukseom-dong/">거북섬동</a> 페이지에서 확인하시고, 오이도역 인근 출입은 오이도역 페이지를 함께 보시면 빠릅니다.</p>
 </section>
 
 <section>
@@ -250,7 +250,7 @@ WOLGOT_PORT = _area(
     "월곶포구 생활권 출장마사지 안내｜시흥",
     "월곶포구·월곶역 생활권의 방문 조건과 소래포구 인접 이동 기준을 안내합니다.",
     """
-<p class="lead">월곶포구 생활권은 시흥 서쪽 해안의 포구 상권과 배후 아파트가 어우러진 권역입니다. 이 페이지는 포구 권역 범위와 소래포구 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/wolgot-dong/">월곶동 페이지</a>에서 확인하세요.</p>
+<p class="lead">월곶포구 생활권은 시흥 서쪽 해안의 포구 상권과 배후 아파트가 어우러진 권역입니다. 이 페이지는 포구 권역 범위와 소래포구 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/wolgot-dong/">월곶동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>월곶포구 생활권의 범위</h2>
@@ -264,7 +264,7 @@ WOLGOT_PORT = _area(
 
 <section>
 <h2>소래포구 인접 이동 기준</h2>
-<p>소래포구역은 행정상 인천 남동구에 속하지만, 시흥 월곶과 포구를 사이에 두고 맞닿아 생활권이 겹칩니다. 소래 방면에서 시흥 월곶으로 넘어오는 위치라면 <a href="/gyeonggi/siheung/station/soraepogu-nearby-area/">소래포구역 인접 안내</a>를 함께 보시면 이동 기준을 확인하실 수 있습니다. 인천 쪽 주소는 시흥 월곶 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 월곶역 인근 출입은 <a href="/gyeonggi/siheung/station/wolgot-station/">월곶역 페이지</a>, 지역 전반은 <a href="/gyeonggi/siheung/wolgot-dong/">월곶동</a> 페이지를 참고하세요.</p>
+<p>소래포구역은 행정상 인천 남동구에 속하지만, 시흥 월곶과 포구를 사이에 두고 맞닿아 생활권이 겹칩니다. 소래 방면에서 시흥 월곶으로 넘어오는 위치라면 <a href="/station/soraepogu-nearby-area/">소래포구역 인접 안내</a>를 함께 보시면 이동 기준을 확인하실 수 있습니다. 인천 쪽 주소는 시흥 월곶 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 월곶역 인근 출입은 <a href="/station/wolgot-station/">월곶역 페이지</a>, 지역 전반은 <a href="/wolgot-dong/">월곶동</a> 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -304,7 +304,7 @@ MOKGAM_GWANGMYEONG = _area(
     "목감·광명 인접 생활권 출장마사지 안내｜시흥",
     "목감지구와 광명·안산 인접 생활권의 차량 이동 기준과 방문 조건을 안내합니다.",
     """
-<p class="lead">목감·광명 인접 생활권은 시흥 동부 내륙의 목감지구를 중심으로 광명·안산과 맞닿은 권역입니다. 이 페이지는 차량 이동 기준과 인접 도시 경계 안내를 중심으로 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/mokgam-dong/">목감동 페이지</a>에서 확인하세요.</p>
+<p class="lead">목감·광명 인접 생활권은 시흥 동부 내륙의 목감지구를 중심으로 광명·안산과 맞닿은 권역입니다. 이 페이지는 차량 이동 기준과 인접 도시 경계 안내를 중심으로 다루며, 지역 전체 설명은 <a href="/mokgam-dong/">목감동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>목감·광명 인접 생활권의 범위</h2>
@@ -318,7 +318,7 @@ MOKGAM_GWANGMYEONG = _area(
 
 <section>
 <h2>광명·안산 인접 이동 기준</h2>
-<p>목감 권역은 광명역과 안산 방면 이동이 잦습니다. 광명역 인근에서 시흥 목감 쪽으로 넘어오는 위치라면 <a href="/gyeonggi/siheung/station/gwangmyeong-nearby-area/">광명역 인접 안내</a>를 함께 보시면 이동 기준을 확인하실 수 있습니다. 광명·안산 쪽 주소는 시흥 목감 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 북쪽 과림 방면으로는 <a href="/gyeonggi/siheung/gwarim-dong/">과림동</a> 외곽 권역과 이어집니다. 목감지구 지역 정보는 <a href="/gyeonggi/siheung/mokgam-dong/">목감동</a> 페이지를 참고하세요.</p>
+<p>목감 권역은 광명역과 안산 방면 이동이 잦습니다. 광명역 인근에서 시흥 목감 쪽으로 넘어오는 위치라면 <a href="/station/gwangmyeong-nearby-area/">광명역 인접 안내</a>를 함께 보시면 이동 기준을 확인하실 수 있습니다. 광명·안산 쪽 주소는 시흥 목감 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 북쪽 과림 방면으로는 <a href="/gwarim-dong/">과림동</a> 외곽 권역과 이어집니다. 목감지구 지역 정보는 <a href="/mokgam-dong/">목감동</a> 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -358,7 +358,7 @@ EUNGYE_DAEYA = _area(
     "은계·대야 생활권 출장마사지 안내｜시흥",
     "은계지구·대야동·은행동 생활권의 방문 조건과 이동 기준을 안내합니다.",
     """
-<p class="lead">은계·대야 생활권은 시흥 북부의 신도시 은계지구와 원도심 대야·은행이 맞물린 권역입니다. 이 페이지는 신도시와 원도심이 섞인 권역의 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/eunhaeng-dong/">은행동 페이지</a>에서 확인하세요.</p>
+<p class="lead">은계·대야 생활권은 시흥 북부의 신도시 은계지구와 원도심 대야·은행이 맞물린 권역입니다. 이 페이지는 신도시와 원도심이 섞인 권역의 이동 기준을 다루며, 지역 전체 설명은 <a href="/eunhaeng-dong/">은행동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>은계·대야 생활권의 범위</h2>
@@ -372,7 +372,7 @@ EUNGYE_DAEYA = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역의 중심 역은 서해선 <a href="/gyeonggi/siheung/station/siheung-daeya-station/">시흥대야역</a>입니다. 권역 안에는 <a href="/gyeonggi/siheung/eunhaeng-dong/">은행동</a>과 <a href="/gyeonggi/siheung/daeya-dong/">대야동</a>이 함께 자리하고, 남서쪽으로는 신천 방면 <a href="/gyeonggi/siheung/sincheon-dong/">신천동</a> 생활권과 이어집니다. 신천·은행 권역과 일부 구간이 겹치니, 위치가 애매하면 두 생활권 페이지를 함께 보셔도 됩니다. 시흥대야역 인근 출입은 시흥대야역 페이지를 참고하세요.</p>
+<p>권역의 중심 역은 서해선 <a href="/station/siheung-daeya-station/">시흥대야역</a>입니다. 권역 안에는 <a href="/eunhaeng-dong/">은행동</a>과 <a href="/daeya-dong/">대야동</a>이 함께 자리하고, 남서쪽으로는 신천 방면 <a href="/sincheon-dong/">신천동</a> 생활권과 이어집니다. 신천·은행 권역과 일부 구간이 겹치니, 위치가 애매하면 두 생활권 페이지를 함께 보셔도 됩니다. 시흥대야역 인근 출입은 시흥대야역 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -412,7 +412,7 @@ SINCHEON_EUNHAENG = _area(
     "신천·은행 생활권 출장마사지 안내｜시흥",
     "신천동·은행동·신천역 생활권의 방문 조건과 부천 인접 이동 기준을 안내합니다.",
     """
-<p class="lead">신천·은행 생활권은 시흥 북부 서해선 신천역을 중심으로 한 역세권 주거 권역으로, 부천 소사와 맞닿아 있습니다. 이 페이지는 권역 범위와 부천 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/sincheon-dong/">신천동 페이지</a>에서 확인하세요.</p>
+<p class="lead">신천·은행 생활권은 시흥 북부 서해선 신천역을 중심으로 한 역세권 주거 권역으로, 부천 소사와 맞닿아 있습니다. 이 페이지는 권역 범위와 부천 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/sincheon-dong/">신천동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>신천·은행 생활권의 범위</h2>
@@ -426,7 +426,7 @@ SINCHEON_EUNHAENG = _area(
 
 <section>
 <h2>부천 인접 이동 기준</h2>
-<p>신천 권역은 부천 소사와 경계를 이루어, 부천 쪽에서 시흥 신천으로 넘어오는 통근 세대가 많습니다. 부천 방면 주소는 시흥 신천 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 권역 안 <a href="/gyeonggi/siheung/eunhaeng-dong/">은행동</a>과 <a href="/gyeonggi/siheung/daeya-dong/">대야동</a>은 은계·대야 생활권과도 이어지니, 위치가 애매하면 두 페이지를 함께 보셔도 됩니다. 신천역 인근 출입은 <a href="/gyeonggi/siheung/station/sincheon-station/">신천역 페이지</a>, 지역 전반은 <a href="/gyeonggi/siheung/sincheon-dong/">신천동</a> 페이지를 참고하세요.</p>
+<p>신천 권역은 부천 소사와 경계를 이루어, 부천 쪽에서 시흥 신천으로 넘어오는 통근 세대가 많습니다. 부천 방면 주소는 시흥 신천 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 권역 안 <a href="/eunhaeng-dong/">은행동</a>과 <a href="/daeya-dong/">대야동</a>은 은계·대야 생활권과도 이어지니, 위치가 애매하면 두 페이지를 함께 보셔도 됩니다. 신천역 인근 출입은 <a href="/station/sincheon-station/">신천역 페이지</a>, 지역 전반은 <a href="/sincheon-dong/">신천동</a> 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -466,7 +466,7 @@ NEUNGGOK_JANGHYEON = _area(
     "능곡·장현 생활권 출장마사지 안내｜시흥",
     "능곡동·장현지구·시흥능곡역 생활권의 방문 조건과 이동 기준을 안내합니다.",
     """
-<p class="lead">능곡·장현 생활권은 시흥 중부의 서해선 시흥능곡역과 장현지구 신도시를 묶은 권역입니다. 이 페이지는 신도시 권역 범위와 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/neunggok-dong/">능곡동 페이지</a>에서 확인하세요.</p>
+<p class="lead">능곡·장현 생활권은 시흥 중부의 서해선 시흥능곡역과 장현지구 신도시를 묶은 권역입니다. 이 페이지는 신도시 권역 범위와 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/neunggok-dong/">능곡동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>능곡·장현 생활권의 범위</h2>
@@ -480,7 +480,7 @@ NEUNGGOK_JANGHYEON = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역의 중심 역은 서해선 <a href="/gyeonggi/siheung/station/siheung-neunggok-station/">시흥능곡역</a>이며, 서쪽으로는 <a href="/gyeonggi/siheung/station/siheung-cityhall-station/">시흥시청역</a>이 가깝습니다. 권역 안 <a href="/gyeonggi/siheung/neunggok-dong/">능곡동</a>과 남서쪽 <a href="/gyeonggi/siheung/janggok-dong/">장곡동</a>, <a href="/gyeonggi/siheung/yeonseong-dong/">연성동</a>이 행정·주거 권역으로 이어집니다. 장현지구는 군자·장현 인접 권역과도 일부 겹치니, 위치가 애매하면 두 페이지를 함께 보셔도 됩니다. 시흥능곡역 인근 출입은 역 페이지를 참고하세요.</p>
+<p>권역의 중심 역은 서해선 <a href="/station/siheung-neunggok-station/">시흥능곡역</a>이며, 서쪽으로는 <a href="/station/siheung-cityhall-station/">시흥시청역</a>이 가깝습니다. 권역 안 <a href="/neunggok-dong/">능곡동</a>과 남서쪽 <a href="/janggok-dong/">장곡동</a>, <a href="/yeonseong-dong/">연성동</a>이 행정·주거 권역으로 이어집니다. 장현지구는 군자·장현 인접 권역과도 일부 겹치니, 위치가 애매하면 두 페이지를 함께 보셔도 됩니다. 시흥능곡역 인근 출입은 역 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -520,7 +520,7 @@ CITYHALL_YEONSEONG = _area(
     "시흥시청·연성 생활권 출장마사지 안내｜시흥",
     "시흥시청·연성동·장현동 행정 중심 생활권의 방문 조건을 안내합니다.",
     """
-<p class="lead">시흥시청·연성 생활권은 시청과 행정·공공기관이 모인 시흥 중부의 행정 중심 권역입니다. 이 페이지는 행정 중심 권역의 범위와 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/yeonseong-dong/">연성동 페이지</a>에서 확인하세요.</p>
+<p class="lead">시흥시청·연성 생활권은 시청과 행정·공공기관이 모인 시흥 중부의 행정 중심 권역입니다. 이 페이지는 행정 중심 권역의 범위와 이동 기준을 다루며, 지역 전체 설명은 <a href="/yeonseong-dong/">연성동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>시흥시청·연성 생활권의 범위</h2>
@@ -534,7 +534,7 @@ CITYHALL_YEONSEONG = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역의 중심 역은 서해선 <a href="/gyeonggi/siheung/station/siheung-cityhall-station/">시흥시청역</a>입니다. 권역 안 <a href="/gyeonggi/siheung/yeonseong-dong/">연성동</a>과 동쪽 <a href="/gyeonggi/siheung/neunggok-dong/">능곡동</a>, 남쪽 <a href="/gyeonggi/siheung/janggok-dong/">장곡동</a>이 행정·주거 권역으로 이어집니다. 능곡·장현 권역, 장곡·하중 권역과 일부 구간이 겹치니, 위치가 애매하면 인접 생활권 페이지를 함께 보셔도 됩니다. 시흥시청역 인근 출입은 역 페이지를 참고하세요.</p>
+<p>권역의 중심 역은 서해선 <a href="/station/siheung-cityhall-station/">시흥시청역</a>입니다. 권역 안 <a href="/yeonseong-dong/">연성동</a>과 동쪽 <a href="/neunggok-dong/">능곡동</a>, 남쪽 <a href="/janggok-dong/">장곡동</a>이 행정·주거 권역으로 이어집니다. 능곡·장현 권역, 장곡·하중 권역과 일부 구간이 겹치니, 위치가 애매하면 인접 생활권 페이지를 함께 보셔도 됩니다. 시흥시청역 인근 출입은 역 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -574,7 +574,7 @@ JANGGOK_HAJUNG = _area(
     "장곡·하중 생활권 출장마사지 안내｜시흥",
     "장곡동·하중동·연성 인접 주거 생활권의 방문 조건과 이동 기준을 안내합니다.",
     """
-<p class="lead">장곡·하중 생활권은 시흥 중부의 장곡지구와 하중동 일대를 묶은 주거 권역으로, 시흥시청·연성 권역과 맞닿아 있습니다. 이 페이지는 주거 권역 범위와 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/janggok-dong/">장곡동 페이지</a>에서 확인하세요.</p>
+<p class="lead">장곡·하중 생활권은 시흥 중부의 장곡지구와 하중동 일대를 묶은 주거 권역으로, 시흥시청·연성 권역과 맞닿아 있습니다. 이 페이지는 주거 권역 범위와 인접 이동 기준을 다루며, 지역 전체 설명은 <a href="/janggok-dong/">장곡동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>장곡·하중 생활권의 범위</h2>
@@ -588,7 +588,7 @@ JANGGOK_HAJUNG = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역에는 자체 역이 없어 인접 역을 이용합니다. 북쪽 <a href="/gyeonggi/siheung/station/siheung-cityhall-station/">시흥시청역</a>이 가장 가깝고, 권역 안 <a href="/gyeonggi/siheung/janggok-dong/">장곡동</a>과 북쪽 <a href="/gyeonggi/siheung/yeonseong-dong/">연성동</a>, 동쪽 <a href="/gyeonggi/siheung/neunggok-dong/">능곡동</a>이 주거 권역으로 이어집니다. 시흥시청·연성 권역, 능곡·장현 권역과 일부 구간이 겹치니, 위치가 애매하면 인접 생활권 페이지를 함께 보셔도 됩니다. 시흥시청역 인근 출입은 역 페이지를 참고하세요.</p>
+<p>권역에는 자체 역이 없어 인접 역을 이용합니다. 북쪽 <a href="/station/siheung-cityhall-station/">시흥시청역</a>이 가장 가깝고, 권역 안 <a href="/janggok-dong/">장곡동</a>과 북쪽 <a href="/yeonseong-dong/">연성동</a>, 동쪽 <a href="/neunggok-dong/">능곡동</a>이 주거 권역으로 이어집니다. 시흥시청·연성 권역, 능곡·장현 권역과 일부 구간이 겹치니, 위치가 애매하면 인접 생활권 페이지를 함께 보셔도 됩니다. 시흥시청역 인근 출입은 역 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -628,7 +628,7 @@ MAEHWA_SINHYEON = _area(
     "매화·신현 생활권 출장마사지 안내｜시흥",
     "매화동·신현동·도창동 외곽 생활권의 방문 가능 주소와 이동 기준을 안내합니다.",
     """
-<p class="lead">매화·신현 생활권은 시흥 중북부의 신현역 일대와 매화·도창 외곽 주거지를 묶은 권역입니다. 이 페이지는 외곽 권역의 범위와 방문 가능 주소·이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/maehwa-dong/">매화동 페이지</a>에서 확인하세요.</p>
+<p class="lead">매화·신현 생활권은 시흥 중북부의 신현역 일대와 매화·도창 외곽 주거지를 묶은 권역입니다. 이 페이지는 외곽 권역의 범위와 방문 가능 주소·이동 기준을 다루며, 지역 전체 설명은 <a href="/maehwa-dong/">매화동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>매화·신현 생활권의 범위</h2>
@@ -642,7 +642,7 @@ MAEHWA_SINHYEON = _area(
 
 <section>
 <h2>인접 역·동으로의 이동</h2>
-<p>권역의 중심 역은 서해선 <a href="/gyeonggi/siheung/station/sinhyeon-station/">신현역</a>입니다. 권역 안 <a href="/gyeonggi/siheung/maehwa-dong/">매화동</a>과 <a href="/gyeonggi/siheung/sinhyeon-dong/">신현동</a>이 자리하고, 북쪽 외곽으로는 <a href="/gyeonggi/siheung/gwarim-dong/">과림동</a> 권역과 이어집니다. 과림·광명부천 인접 권역과 일부 구간이 겹치니, 위치가 애매하면 두 페이지를 함께 보셔도 됩니다. 신현역 인근 출입은 신현역 페이지를 참고하세요.</p>
+<p>권역의 중심 역은 서해선 <a href="/station/sinhyeon-station/">신현역</a>입니다. 권역 안 <a href="/maehwa-dong/">매화동</a>과 <a href="/sinhyeon-dong/">신현동</a>이 자리하고, 북쪽 외곽으로는 <a href="/gwarim-dong/">과림동</a> 권역과 이어집니다. 과림·광명부천 인접 권역과 일부 구간이 겹치니, 위치가 애매하면 두 페이지를 함께 보셔도 됩니다. 신현역 인근 출입은 신현역 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -682,7 +682,7 @@ GUNJA_JANGHYEON = _area(
     "군자·장현 인접 생활권 출장마사지 안내｜시흥",
     "군자동·장현지구 인접 생활권의 방문 조건과 정왕·시흥시청 이동 기준을 안내합니다.",
     """
-<p class="lead">군자·장현 인접 생활권은 시흥 중남부의 군자동과 장현지구가 맞물리는 권역으로, 정왕과 시흥시청 사이를 잇습니다. 이 페이지는 권역 범위와 정왕·시흥시청 이동 기준을 다루며, 지역 전체 설명은 <a href="/gyeonggi/siheung/gunja-dong/">군자동 페이지</a>에서 확인하세요.</p>
+<p class="lead">군자·장현 인접 생활권은 시흥 중남부의 군자동과 장현지구가 맞물리는 권역으로, 정왕과 시흥시청 사이를 잇습니다. 이 페이지는 권역 범위와 정왕·시흥시청 이동 기준을 다루며, 지역 전체 설명은 <a href="/gunja-dong/">군자동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>군자·장현 인접 생활권의 범위</h2>
@@ -696,7 +696,7 @@ GUNJA_JANGHYEON = _area(
 
 <section>
 <h2>정왕·시흥시청 이동 기준</h2>
-<p>군자 권역은 남쪽으로 <a href="/gyeonggi/siheung/jeongwang-dong/">정왕동</a> 권역과, 북쪽으로 <a href="/gyeonggi/siheung/station/siheung-cityhall-station/">시흥시청역</a> 권역과 이어집니다. 정왕 방면은 정왕·시화공단 생활권과, 시흥시청 방면은 시흥시청·연성 생활권과 연결되니, 이동 동선에 따라 인접 생활권 페이지를 함께 보시면 위치 설명이 쉬워집니다. 동쪽 <a href="/gyeonggi/siheung/neunggok-dong/">능곡동</a> 방면 장현지구는 능곡·장현 권역과도 겹치니, 위치가 애매하면 두 페이지를 함께 확인하세요. 군자 지역 전반은 <a href="/gyeonggi/siheung/gunja-dong/">군자동</a> 페이지를 참고하시면 됩니다.</p>
+<p>군자 권역은 남쪽으로 <a href="/jeongwang-dong/">정왕동</a> 권역과, 북쪽으로 <a href="/station/siheung-cityhall-station/">시흥시청역</a> 권역과 이어집니다. 정왕 방면은 정왕·시화공단 생활권과, 시흥시청 방면은 시흥시청·연성 생활권과 연결되니, 이동 동선에 따라 인접 생활권 페이지를 함께 보시면 위치 설명이 쉬워집니다. 동쪽 <a href="/neunggok-dong/">능곡동</a> 방면 장현지구는 능곡·장현 권역과도 겹치니, 위치가 애매하면 두 페이지를 함께 확인하세요. 군자 지역 전반은 <a href="/gunja-dong/">군자동</a> 페이지를 참고하시면 됩니다.</p>
 </section>
 
 <section>
@@ -736,7 +736,7 @@ GWARIM_GWANGMYEONG_BUCHEON = _area(
     "과림·광명부천 인접 생활권 출장마사지 안내｜시흥",
     "과림동·무지내동과 광명·부천 인접 외곽 생활권의 방문 가능 여부를 안내합니다.",
     """
-<p class="lead">과림·광명부천 인접 생활권은 시흥 북동부 끝자락의 과림·무지내 일대로, 광명·부천과 맞닿은 외곽 권역입니다. 이 페이지는 외곽 권역의 방문 가능 여부와 이동 기준을 충실히 안내하며, 지역 전체 설명은 <a href="/gyeonggi/siheung/gwarim-dong/">과림동 페이지</a>에서 확인하세요.</p>
+<p class="lead">과림·광명부천 인접 생활권은 시흥 북동부 끝자락의 과림·무지내 일대로, 광명·부천과 맞닿은 외곽 권역입니다. 이 페이지는 외곽 권역의 방문 가능 여부와 이동 기준을 충실히 안내하며, 지역 전체 설명은 <a href="/gwarim-dong/">과림동 페이지</a>에서 확인하세요.</p>
 
 <section>
 <h2>과림·광명부천 인접 생활권의 범위</h2>
@@ -750,7 +750,7 @@ GWARIM_GWANGMYEONG_BUCHEON = _area(
 
 <section>
 <h2>광명·부천 인접 이동 기준</h2>
-<p>과림 권역은 광명·부천과 맞닿아 인접 도시 쪽 동선이 잦습니다. 광명역 인근에서 시흥 과림·목감 쪽으로 넘어오는 위치라면 <a href="/gyeonggi/siheung/station/gwangmyeong-nearby-area/">광명역 인접 안내</a>를 함께 보시면 이동 기준을 확인하실 수 있습니다. 광명·부천 쪽 주소는 시흥 과림 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 남쪽으로는 <a href="/gyeonggi/siheung/mokgam-dong/">목감동</a> 권역과, 서쪽으로는 <a href="/gyeonggi/siheung/eunhaeng-dong/">은행동</a> 방면과 이어집니다. 과림 지역 전반은 <a href="/gyeonggi/siheung/gwarim-dong/">과림동</a> 페이지를 참고하세요.</p>
+<p>과림 권역은 광명·부천과 맞닿아 인접 도시 쪽 동선이 잦습니다. 광명역 인근에서 시흥 과림·목감 쪽으로 넘어오는 위치라면 <a href="/station/gwangmyeong-nearby-area/">광명역 인접 안내</a>를 함께 보시면 이동 기준을 확인하실 수 있습니다. 광명·부천 쪽 주소는 시흥 과림 기준으로 이동 가능 여부를 안내하며, 경계 위치는 주소를 알려주시면 바로 확인해 드립니다. 남쪽으로는 <a href="/mokgam-dong/">목감동</a> 권역과, 서쪽으로는 <a href="/eunhaeng-dong/">은행동</a> 방면과 이어집니다. 과림 지역 전반은 <a href="/gwarim-dong/">과림동</a> 페이지를 참고하세요.</p>
 </section>
 
 <section>
@@ -786,7 +786,7 @@ GWARIM_GWANGMYEONG_BUCHEON = _area(
 """)
 
 HUB = {
-    "path": "gyeonggi/siheung/area/",
+    "path": "area/",
     "title": "시흥시 생활권별 출장마사지 안내｜배곧·정왕·은계·능곡",
     "desc": "시흥시 출장마사지 생활권 안내. 배곧신도시, 정왕·시화공단, 은계·대야 등 생활권을 확인하세요.",
     "h1": "시흥시 생활권별 안내",

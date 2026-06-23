@@ -8,10 +8,10 @@
 - 정적 HTML 사이트 — 어느 호스팅(GitHub Pages, Netlify, 일반 웹서버)에서든 그대로 서빙 가능
 - `build.py` + `content/` 패키지에서 페이지를 생성하는 빌드 방식
 - 생성물(각 디렉터리의 `index.html`, `sitemap.xml`, `robots.txt`)도 저장소에 포함
-- 메인 경로는 `/gyeonggi/siheung/` 이며, 도메인 루트(`/`)는 메인으로 리다이렉트됩니다
+- 메인(홈)은 도메인 루트 `/` 이며, 지역 페이지는 `/baegot-dong/`, 역세권은 `/station/...`, 생활권은 `/area/...` 구조입니다
 
 ```
-build.py            # 빌드 스크립트 (레이아웃·스키마·글자수/디스크립션 검사·sitemap·루트 리다이렉트)
+build.py            # 빌드 스크립트 (레이아웃·스키마·글자수/디스크립션 검사·sitemap 생성)
 content/
   site.py           # 상호(바로 GO)·전화·BASE_URL·텔레그램 문의·메뉴 구조
   main.py           # 시흥 메인 허브 (+ FAQPage JSON-LD)
@@ -55,5 +55,5 @@ python3 build.py
 
 1. `content/site.py`의 `BASE_URL`을 실제 도메인으로 변경
 2. (선택) `TELEGRAM_BUILD` / `TELEGRAM_PARTNER` 텔레그램 링크 확인
-3. `python3 build.py` 재실행 (canonical·sitemap·robots.txt·루트 리다이렉트에 반영됨)
+3. `python3 build.py` 재실행 (canonical·sitemap·robots.txt에 반영됨)
 4. Google Search Console에 `sitemap.xml` 제출
